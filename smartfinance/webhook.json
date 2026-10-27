@@ -1,0 +1,7 @@
+{
+  "url": "https://lesser-blair-probability-attend.trycloudflare.com/api/telegram/webhook",
+  "allowed_updates": [
+    "message",
+    "callback_query"
+  ]
+}

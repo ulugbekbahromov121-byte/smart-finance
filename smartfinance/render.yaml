@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: smart-finance
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: TELEGRAM_BOT_TOKEN
+        value: 8942245391:AAH5bn66CbwDM7Tbe5w5Zyt7Q6otmEFSZy8
+      - key: JWT_SECRET
+        generateValue: true

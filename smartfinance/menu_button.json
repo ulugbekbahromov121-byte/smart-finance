@@ -1,0 +1,9 @@
+{
+  "menu_button": {
+    "type": "web_app",
+    "text": "📱 Ilovani ochish",
+    "web_app": {
+      "url": "https://lesser-blair-probability-attend.trycloudflare.com"
+    }
+  }
+}
